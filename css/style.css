@@ -562,7 +562,7 @@ h3.tittle {
     color: #2e3840;
 }
 
-.bottom-gd,
+.bottom-gd:hover,
 .bottom-gd2-active {
     background: #f8f9fa;
     transition: 2s all;
@@ -573,8 +573,8 @@ h3.tittle {
     box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
 }
 
-.bottom-gd2-active {
-    background: #ff3f34 !important;
+.bottom-gd2-active:hover {
+    background: #ff3f34;
     transition: 2s all;
     -webkit-transition: 2s all;
     -moz-transition: 2s all;
@@ -618,14 +618,20 @@ h3.tittle {
     margin-bottom: 1.5em !important;
     padding: 3em 0.5em;
 }
-
-.bottom-gd.fea h3 {
-    font-size: 1.2em;
-}
-
-.fea.active {
+.fea:hover
+{
     background: #ff3f34;
 }
+
+.bottom-gd.fea h3 {
+    font-size: 1.5em;
+}
+
+
+.fea.active:hover {
+    background: #ff3f34;
+}
+
 
 .fea.active p,
 .fea.active h3 {
